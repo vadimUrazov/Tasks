@@ -124,20 +124,54 @@ int substr() {
     }
 }
 int main() {
-    //int but = 1;
-    //if (but == 1) {
-
-      //  while (but != 2) {
-            substr();
-        //    cout << endl;
-          //  printf("enter button");
-           // cout << endl;
-            //cin >> but;
-            //cout << endl;
-       // }
-    //}
-    //else {
-      //  return 0;
-    //}
+ 
+    substr();
+    
     return 0;
 }
+/*
+input
+012345
+ position 
+ 1
+ result 
+ 12345
+
+input
+01&3 45
+ position
+ 1
+ result
+ 1&3 45
+
+
+ input
+abcdefgh
+ position
+ 3
+ result
+ defgh
+
+
+input
+abc def ger
+ position
+ 4
+ result
+ def ger
+
+ input
+ asdsd
+ position 
+ -1
+ result
+ incorrect position!
+
+ input
+ asdsd
+ position
+ 120
+ result
+ incorrect position!
+
+*/
